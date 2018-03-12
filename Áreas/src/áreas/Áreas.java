@@ -37,6 +37,13 @@ public class Áreas {
         double res1=miTriángulo.hallararea();
         System.out.println("El área del triángulo es " + res1);
         
+        System.out.println("Ingrese la base del cuadrado");
+        miCuadrado.x=myScan.nextDouble();
+        System.out.println("Ingrese la altura del cuadrado");
+        miCuadrado.y=myScan.nextDouble();
+        double res2=miCuadrado.hallararea();
+        System.out.println("El área del cuadrado es " + res2);
+        
        
         
         
