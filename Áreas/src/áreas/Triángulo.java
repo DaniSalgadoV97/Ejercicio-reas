@@ -10,12 +10,12 @@ package áreas;
  * @author Estudiantes
  */
 public class Triángulo extends Figurageométrica {
-
+double x; double y;
     @Override
     double hallararea() {
-        double x = 0, y = 0, a;
-        a = x * y;
-        return 0;
+        double a;
+        a = (x * y)/2;
+        return a;
 
     }
 

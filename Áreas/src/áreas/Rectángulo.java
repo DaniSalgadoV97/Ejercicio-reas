@@ -10,12 +10,14 @@ package áreas;
  * @author Estudiantes
  */
 public class Rectángulo extends Figurageométrica {
+double x; double y;
 
     @Override
     double hallararea() {
-        double x = 0, y = 0, a;
+        double a;
         a=x*y;
-        return 0;
+    return a;
+       
         
         
     }
